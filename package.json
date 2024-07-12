@@ -1,0 +1,49 @@
+{
+  "author": {
+    "name": "Contentstack",
+    "url": "https://www.contentstack.com/"
+  },
+  "bin": {
+    "contentstack": "./bin/index.js"
+  },
+  "dependencies": {
+    "async": "2.6.1",
+    "chalk": "2.4.1",
+    "commander": "2.9.0",
+    "contentstack-cli": "^3.1.5",
+    "debug": "4.1.0",
+    "lodash": "4.17.11",
+    "mkdirp": "0.5.1",
+    "ncp": "2.0.0",
+    "prompt": "1.0.0",
+    "request": "2.88.0",
+    "resolve": "1.8.1"
+  },
+  "description": "Contentstack Command Line Interface - CLI utility.",
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/contentstack/contentstack-cli"
+  },
+  "homepage": "https://www.contentstack.com/docs/tools-and-frameworks/web-framework-contentstack-express/installation#install-cli",
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "hiteshbal",
+      "email": "hitesh.baldaniya@raweng.com"
+    },
+    {
+      "name": "mynk",
+      "email": "mayank@raweng.com"
+    }
+  ],
+  "name": "contentstack-cli-raj",
+  "readme": "./README.md",
+  "version": "3.1.5",
+  "devDependencies": {
+    "eslint": "5.9.0"
+  }
+}
